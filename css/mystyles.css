@@ -1,0 +1,86 @@
+.carousel-inner div img{
+    width: 100% !important;
+    height: 400px !important;
+    object-fit: cover !important;
+}
+
+#saveToCartBtn{
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn img{
+    width: 25px;
+    height: 25px;
+}
+
+.product_detail{
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+@media only screen and (max-width: 693px){
+    .product_detail{
+        max-width: 90%;
+    }
+}
+
+.product-list-item .card-title{
+    cursor: pointer;
+    color: #242B3E !important;
+}
+
+.product-list-item .card-title:hover{
+    color: cornflowerblue !important;
+}
+
+main{
+    height: 100vh;
+}
+
+@media only screen and (max-width: 900px) {
+    .cart-table-wrapper{
+        overflow-x: scroll;
+    }    
+}
+
+#tbody th, td { 
+    min-width: 200px; 
+}
+
+.cart-table{
+    max-width: 900px;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.cart-heading{
+    max-width: 900px;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.cart-table img{
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+}
+
+.cart-product-remove img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.cart-product-remove img:hover{
+    opacity: 0.7;
+}
+
+.cart-total{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: 20px;
+}
